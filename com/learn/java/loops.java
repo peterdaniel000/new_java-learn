@@ -1,3 +1,4 @@
+package com.learn.java;
 public class loops {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
@@ -17,5 +18,17 @@ public class loops {
                 System.out.println(j);
             }
         }
+   //     int counter = 0;
+//while (counter < 3) {
+ //   counter++;
+  //  System.out.println(counter);
+//}
+
+int counter = 0;
+do{
+    counter++;
+    System.out.println(counter);
+} while (counter < 3);
     }
+
 }
